@@ -17,7 +17,7 @@ public class PlayerController {
 	@Autowired
 	PlayerService playerService;
 
-	@GetMapping("/listPlayers")
+	@GetMapping("/listPlayer")
 	public List<Player> getPlayers() 
 	{
 		
