@@ -6,6 +6,7 @@ pipeline  {
   {
     
     BUILD_VERSION='0.0.1'
+    PATH=$PATH:$MAVEN_HOME/bin
     
   }
   
