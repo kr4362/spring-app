@@ -21,7 +21,7 @@ pipeline  {
         withSonarQubeEnv("sonarqube-9.8")
         {
           
-            sh "mvn clean verify sonar:sonar"
+            sh "mvn sonar:sonar"
           
         }
         
